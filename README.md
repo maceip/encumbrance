@@ -1,8 +1,12 @@
 <h1>encumbrance.net</h1>
 
-a DHT for encumbered keys, re-keyed every epoch with frost-ed25519
+⛓ Members-only DHT: eligibility requires encumbrance. 
 
-remotely attestable via SGX, AMD SEV-SNP
+⛓ Peers get slashed for not updating their software, and ejected given a Proof of complete knowledge (PoCK) 
+
+⛓ Re-keyed every epoch via frost-ed25519 in an enclave near you
+
+⛓ remotely attestable with intel's SGX, AMD's SEV-SNP
 
 
 
