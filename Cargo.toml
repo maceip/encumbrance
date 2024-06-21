@@ -1,0 +1,18 @@
+[package]
+name = "encumbrance"
+version = "0.0.1"
+edition = "2021"
+authors = ["mac mac  <mac@encumbrance.net>"]
+readme = "README.md"
+repository = "https://github.com/maceip/encumbrance"
+
+[dependencies]
+alloy = { git = "https://github.com/alloy-rs/alloy", version = "0.1.0", features = ["full", "signer-mnemonic"] }
+tokio = { version = "1.38", features = ["rt-multi-thread", "macros", "io-std"] }
+async-trait = "0.1"
+either = "1.12"
+futures = "0.3.30"
+libp2p = { version = "0.53.1", features = [ "tokio", "gossipsub", "dns", "identify", "kad", "macros", "noise", "ping", "pnet", "tcp", "websocket", "yamux"] }
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3",features = ["env-filter"] }
+frost-ed25519 = { version = "2.0.0-rc.0", features = ["serde"] }
