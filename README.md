@@ -1,4 +1,4 @@
-<h1>encumbrance.net</h1>
+<h1>encumbrance network</h1>
 
 ⛓ Members-only DHT: eligibility requires encumbrance. 
 
