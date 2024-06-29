@@ -5,6 +5,11 @@ on:
       - 'release/*'
   workflow_dispatch:
 
+permissions:
+  attestations: write
+  contents: read
+  id-token: write
+    
 jobs:
   call-workflow-passing-data:
     uses: maceip/encumbrance-rs/.github/workflows/gramine-attestion.yml@main
