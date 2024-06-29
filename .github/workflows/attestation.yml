@@ -1,0 +1,12 @@
+name: measure build artifacts
+on:
+  create:
+    branches:
+      - 'release/*'
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    uses: maceip/encumbrance-rs/.github/workflows/gramine-attestion.yml@main
+    secrets: inherit
+    
