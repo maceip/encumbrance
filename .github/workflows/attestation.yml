@@ -12,6 +12,6 @@ permissions:
     
 jobs:
   call-workflow-passing-data:
-    uses: maceip/encumbrance-rs/.github/workflows/gramine-attestion.yml@main
+    uses: maceip/encumbrance-rs/.github/workflows/gramine-attestion.yml@master
     secrets: inherit
     
